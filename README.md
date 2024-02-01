@@ -26,5 +26,21 @@ npm install
 ```
 ### Shots
 
-![Alt text](./public/readme1.png)
 ![Alt text](./public/readme2.png)
+![Alt text](./public/readme1.png)
+
+Go to the main directory
+```
+cd dirname
+```
+Run the project
+
+```
+npm run dev
+```
+
+
+
+
+
+
