@@ -107,7 +107,7 @@ const Songbar: React.FC<SongbarProps> = () => {
       </div>
 
        <div className="volndDownload flex gap-5 -mt-8 mx-[15%] ">
-        <div   className='text-2xl '><FiDownload /></div>
+        <a href='../dildiyan.mp3' className='text-2xl '><FiDownload /></a>
       <div onClick={()=>{setisMuted(!isMuted)}} className="volume cursor-pointer text-2xl ">
       {isMuted ? <FaVolumeXmark />  : <FaVolumeUp />}
       </div>
